@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IA SIMPLES - Transforme Seu Negócio com IA de Última Geração</title>
+    <meta name="description" content="Automatize processos, tome decisões inteligentes e acelere seu crescimento com a plataforma de IA mais avançada do mercado.">
+    <link rel="stylesheet" href="vendas.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading" class="loading-screen">
+        <div class="loading-spinner"></div>
+        <p>Carregando o futuro...</p>
+    </div>
+
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="bg-gradient-1"></div>
+        <div class="bg-gradient-2"></div>
+        <div class="bg-gradient-3"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.5 2A7.5 7.5 0 0 0 4 10c0 6 3.5 10 3.5 10s3.5-4 3.5-10A7.5 7.5 0 0 0 9.5 2Z" stroke="currentColor" stroke-width="2"/>
+                            <path d="M14.5 6A5.5 5.5 0 0 0 12 12c0 4 2.5 6 2.5 6s2.5-2 2.5-6a5.5 5.5 0 0 0-2.5-6Z" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <span class="logo-text">IA SIMPLES</span>
+                </div>
+                <div class="nav-menu" id="navMenu">
+                    <a href="#recursos" class="nav-link">Recursos</a>
+                    <a href="#beneficios" class="nav-link">Benefícios</a>
+                    <a href="#depoimentos" class="nav-link">Depoimentos</a>
+                    <button class="btn btn-primary">Começar Agora</button>
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="currentColor"/>
+                    </svg>
+                    Revolução em Inteligência Artificial
+                </div>
+
+                <h1 class="hero-title">
+                   Qualquer Pessoa Pode Usar Inteligência Artificial.
+                    <span class="gradient-text"> Agora é a Sua Vez!</span>
+                </h1>
+
+                <p class="hero-description">
+                   Quer fazer um currículo? Passar de ano? Criar posts? Automatizar vendas? Ou só ganhar tempo no dia a dia? 
+                    A IA SIMPLES te dá os melhores prompts e tutoriais, sem enrolação  <strong class="highlight">e sem precisar ser um expert em tecnologia.</strong>
+                </p>
+
+                <div class="hero-cta">
+                    <button class="btn btn-primary btn-large" id="ctaPrimary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="currentColor"/>
+                        </svg>
+                       Quero Começar Agora
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Trust Indicators -->
+                <div class="trust-indicators">
+                    <div class="trust-item">
+                        <div class="trust-number" data-target="50">0</div>
+                        <div class="trust-label">Mais de 100 mil pessoas comuns já usaram</div>
+                    </div>
+                    <div class="trust-item">
+                        <div class="trust-number" data-target="99.9">0</div>
+                        <div class="trust-label">Suporte pra quem nunca mexeu com IA</div>
+                    </div>
+                    <div class="trust-item">
+                        <div class="trust-number" data-target="150">0</div>
+                        <div class="trust-label">Resultados em minutos, não em semanas</div>
+                    </div>
+                    <div class="trust-item">
+                        <div class="trust-number">24/7</div>
+                        <div class="trust-label">100% em português, passo a passo</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="recursos" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">O Que Você Pode Fazer com a IA SIMPLES?</h2>
+                <p class="section-description">
+                    Descubra os recursos revolucionários que estão transformando o dia a dia das pessoas comuns em todo o Brasil.
+                </p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.5 2A7.5 7.5 0 0 0 4 10c0 6 3.5 10 3.5 10s3.5-4 3.5-10A7.5 7.5 0 0 0 9.5 2Z" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Criação de Currículo Profissional</h3>
+                    <p class="feature-description">
+                       Geramos o currículo perfeito pra você… Em menos de 2 minutos.
+                    </p>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Textos para Faculdade e Escola</h3>
+                    <p class="feature-description">
+                        Trabalhos, redações, resumos... Tudo com IA. Sem plágio. Sem bloqueio.
+                    </p>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                            <path d="M12 6v6l4 2" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Precisão de 99.97%</h3>
+                    <p class="feature-description">
+                        Análises e predições com precisão superior a especialistas humanos, garantindo decisões sempre certeiras.
+                    </p>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Posts Prontos para Redes Sociais</h3>
+                    <p class="feature-description">
+                        Prompts prontos pra você bombar no Instagram, TikTok, WhatsApp ou onde quiser.
+                    </p>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 3v18h18" stroke="currentColor" stroke-width="2"/>
+                            <path d="M7 12l4-4 4 4 6-6" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Mensagens para Vendas</h3>
+                    <p class="feature-description">
+                        Quer vender mais? Temos comandos prontos que criam textos de oferta e respostas para clientes.
+                    </p>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                            <path d="M2 12h20" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Dicas de Estudo e Reforço Escolar</h3>
+                    <p class="feature-description">
+                       Aprenda de forma rápida, com resumos prontos e exercícios gerados pela IA.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="beneficios" class="benefits">
+        <div class="container">
+            <div class="benefits-content">
+                <div class="benefits-text">
+                    <h2 class="section-title">Por Que Todo Mundo Tá Falando da IA SIMPLES?</h2>
+                    <p class="benefits-description">
+                        Não é apenas uma ferramenta. É uma revolução completa.
+                    </p>
+
+                    <div class="benefits-list">
+                        <div class="benefit-item" data-aos="fade-right" data-aos-delay="0">
+                            <div class="benefit-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="2"/>
+                                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <span class="benefit-text">Fácil de usar, até pra quem nunca mexeu com IA</span>
+                        </div>
+                        <div class="benefit-item" data-aos="fade-right" data-aos-delay="100">
+                            <div class="benefit-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="2"/>
+                                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <span class="benefit-text"> Resultados em minutos</span>
+                        </div>
+                        <div class="benefit-item" data-aos="fade-right" data-aos-delay="200">
+                            <div class="benefit-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="2"/>
+                                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <span class="benefit-text"> Passo a passo pra cada tipo de tarefa</span>
+                        </div>
+                        <div class="benefit-item" data-aos="fade-right" data-aos-delay="300">
+                            <div class="benefit-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="2"/>
+                                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <span class="benefit-text"> Funciona no celular ou no computador</span>
+                        </div>
+                        <div class="benefit-item" data-aos="fade-right" data-aos-delay="400">
+                            <div class="benefit-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="2"/>
+                                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <span class="benefit-text">Sem precisar baixar nada</span>
+                        </div>
+                        <div class="benefit-item" data-aos="fade-right" data-aos-delay="500">
+                            <div class="benefit-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="2"/>
+                                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <span class="benefit-text">Garantia de satisfação total (ou seu dinheiro de volta)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="benefits-visual">
+                    <div class="rotating-circle">
+                        <div class="circle-outer"></div>
+                        <div class="circle-middle"></div>
+                        <div class="circle-inner">
+                            <div class="circle-content">
+                                <div class="circle-emoji">🎯</div>
+                                <div class="circle-number">99.97%</div>
+                                <div class="circle-label">Precisão</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="depoimentos" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Histórias de Sucesso Reais</h2>
+                <p class="section-description">Veja como as pessoas estão revolucionando seus resultados</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="testimonial-stars">
+                        <span>⭐⭐⭐⭐⭐</span>
+                    </div>
+                    <p class="testimonial-content">
+                        "Fiz meu primeiro currículo com a IA SIMPLES. Já mandei pra 3 empresas e fui chamada pra entrevista na semana seguinte!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"> JL</div>
+                        <div class="author-info">
+                            <div class="author-name">Juliana</div>
+                            <div class="author-role"> Dona de casa</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-stars">
+                        <span>⭐⭐⭐⭐⭐</span>
+                    </div>
+                    <p class="testimonial-content">
+                        "Consegui fazer meu TCC inteiro com a ajuda da IA. Economizei semanas de trabalho."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">RS</div>
+                        <div class="author-info">
+                            <div class="author-name">Ricardo Silva</div>
+                            <div class="author-role">Estudante de 17 anos</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-stars">
+                        <span>⭐⭐⭐⭐⭐</span>
+                    </div>
+                    <p class="testimonial-content">
+                        "Uso os prompts prontos pra criar anúncios no WhatsApp. Já aumentei minhas vendas de porta em porta."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SJ</div>
+                        <div class="author-info">
+                            <div class="author-name">Seu João</div>
+                            <div class="author-role">Vendedor de bairro/div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Você Pode Continuar Perdendo Tempo... Ou Começar Agora a Usar a IA ao Seu Favor!</h2>
+                <p class="cta-description">
+                    Não deixe seus concorrentes saírem na frente.Por apenas R$24,90 você tem acesso a todos os prompts, tutoriais e suporte da IA SIMPLES. Garantia de 7 dias. Se não gostar, devolvemos 100% do seu dinheiro.
+                </p>
+
+                <div class="pricing-box">
+                    <div class="price-old">De R$ 70</div>
+                    <div class="price-current">R$24,99</div>
+                    <div class="price-period">Acesso ao nosso e-book</div>
+                </div>
+
+                <button class="btn btn-primary btn-xl" id="finalCta">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="currentColor"/>
+                    </svg>
+                     Quero Começar Agora
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </button>
+
+                <div class="guarantee">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                    Testa sem medo: Se não gostar, devolvemos seu dinheiro + te damos um bônus de agradecimento.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.5 2A7.5 7.5 0 0 0 4 10c0 6 3.5 10 3.5 10s3.5-4 3.5-10A7.5 7.5 0 0 0 9.5 2Z" stroke="currentColor" stroke-width="2"/>
+                            <path d="M14.5 6A5.5 5.5 0 0 0 12 12c0 4 2.5 6 2.5 6s2.5-2 2.5-6a5.5 5.5 0 0 0-2.5-6Z" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <span class="logo-text">IA SIMPLES</span>
+                </div>
+                <div class="footer-info">
+                    <p>© 2024 IA SIMPLES. Todos os direitos reservados.</p>
+                    <p class="footer-tagline">Transformando vidas com inteligência artificial</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="vendas.js"></script>
+</body>
+</html>
